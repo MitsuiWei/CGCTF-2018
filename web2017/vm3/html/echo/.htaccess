@@ -1,0 +1,9 @@
+Options -Indexes
+<Files cat_flag>
+    order deny,allow
+    deny from all
+</Files>
+<Files a_very_secret_zone>
+    order deny,allow
+    deny from all
+</Files>

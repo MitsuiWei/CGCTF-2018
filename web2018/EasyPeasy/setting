@@ -1,0 +1,14 @@
+dockerfiles/centos-lamp包含完整的LAMP在一個container裡
+mysql -u root -p 空密碼
+CREATE DATABASE fl4g;
+CREATE DATABASE news;
+use fl4g; create table secret(id INT, THIS_IS_FLAG_YO TEXT);
+insert into secret(id, THIS_IS_FLAG_YO) values (1, FLAG{…});
+use news; create table info(id INT, title TEXT, content TEXT);
+insert into info …..
+
+* 新增使用者，並設置權限(只能SELECT，預防攪屎)
+        use mysql;
+        INSERT INTO user(host,user,password) VALUES('%’,'kaibro',password('killpwd'));
+        GRANT SELECT ON *.* TO 'kaibro'@localhost IDENTIFIED BY 'killpwd' WITH GRANT OPTION;
+        FLUSH PRIVILEGES;

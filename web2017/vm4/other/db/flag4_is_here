@@ -1,0 +1,2 @@
+create table flag4_is_here (flag text);
+insert into flag4_is_here values ('CGCTF{congratulations!!!!!!}');

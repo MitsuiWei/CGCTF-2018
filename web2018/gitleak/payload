@@ -1,0 +1,5 @@
+git clone https://github.com/denny0223/scrabble
+
+./scrabble 網址
+
+FLAG就在還原的index.php中

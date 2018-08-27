@@ -1,0 +1,54 @@
+# From kaibro
+# CGCTF{SQL_1njecti0n_1s_s0_fUn!}
+easy_peasy:
+  build: EasyPeasy
+  ports: 
+    - 10210:80
+
+# From kaibro
+# CGCTF{SQL_1njecti0n_1s_s0_fUn!222}
+easy_peasy_2:
+  build: ./EasyPeasy2
+  ports: 
+    - 10211:80
+
+# From kaibro
+# CGCTF{four_char_sql_injection_is_toooo_ez}
+four_char_inj:
+  build: four-char-inj
+  ports: 
+    - 10212:80
+
+# From kaibro
+# CGCTF{oh_ya_git_G___G}
+gitleak:
+  build: gitleak
+  ports:
+    - 10213:80
+
+# From kaibro
+# CGCTF{simple_upload_practice_lol}
+sh3ll_upload3r:
+  build: sh3ll_upload3r
+  ports:
+    - 10214:80
+
+# CGCTF{A23R98YA9R3YAL3YA23YA923YA9238YO}
+easy_echo:
+  build: EasyEcho
+  ports:
+    - 10215:80
+
+# CGCTF{1ff38a3514f2a786b42faf49e90428d6}
+cgi:
+  build: cgi
+  ports:
+    - 10217:8000
+
+# CGCTF{0MG_TH15_53RV3R_15_B4D}
+# CGCTF{Y0U_4R3_3V3N_M0R3_53XY_TH3N_TH15_53RV3R}
+nmd:
+  build: nmd
+  ports:
+    - 10218:8000
+

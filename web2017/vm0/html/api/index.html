@@ -1,0 +1,29 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<div class="container">
+    <h1>Process API</h1>
+    <pre></pre>
+</div>
+
+<script>
+
+var updateContent = () => {
+    // This thing is so called "Ajax"
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        pre = document.querySelector("pre");
+        if (this.readyState == 4 && this.status == 200)
+            pre.innerHTML = this.responseText;
+        else
+            pre.innerHTML = "Request error";
+
+    };
+    xhttp.open("GET", "api.php?show_secret=0&api_key=kcc175b9c0f1b6a831c399e269772661", true);
+    xhttp.send();
+};
+
+updateContent();
+setInterval(updateContent, 5000);
+
+</script>

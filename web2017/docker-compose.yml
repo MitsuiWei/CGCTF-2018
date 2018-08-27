@@ -1,0 +1,30 @@
+vm0:
+  build: vm0
+  ports:
+    - 10200:80
+
+vm1:
+  build: vm1
+  ports:
+    - 10201:80
+
+vm2:
+  build: vm2
+  ports:
+    - 10202:80
+
+vm3:
+  build: vm3
+  ports:
+    - 10203:80
+
+vm4:
+  build: vm4
+  ports:
+    - 10204:80
+
+# HTTP only
+vm5:
+  build: vm5
+  ports:
+    - 10205:8888

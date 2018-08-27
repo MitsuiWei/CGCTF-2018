@@ -1,0 +1,8 @@
+<h1>About CGI</h1>
+
+<p>In computing, Common Gateway Interface (CGI) offers a standard protocol for web servers to execute programs that execute like Console applications (also called Command-line interface programs) running on a server that generates web pages dynamically. Such programs are known as CGI scripts or simply as CGIs. The specifics of how the script is executed by the server are determined by the server. In the common case, a CGI script executes at the time a request is made and generates HTML. In brief, the CGI program receives HTTP forms data via Unix/Linux standard input, and most other data (such as URL paths, URL arguments, and HTTP header data) via well-known Unix/Linux process environment variables.</p>
+<p>A web server allows its owner to configure which URLs shall be handled by which CGI scripts.</p>
+<p>This is usually done by marking a directory within the document collection as containing CGI scripts - its name is often <code>cgi-bin</code>. For example, <code>/usr/local/apache/htdocs/cgi-bin</code> could be designated as a CGI directory on the web server. When a Web browser requests a URL that points to a file within the CGI directory (e.g., <code>http://example.com/cgi-bin/printenv.pl/with/additional/path?and=a&amp;query=string</code>), then, instead of simply sending that file (<code>/usr/local/apache/htdocs/cgi-bin/printenv.pl</code>) to the Web browser, the HTTP server runs the specified script and passes the output of the script to the Web browser. That is, anything that the script sends to <b>standard output</b> is passed to the Web client instead of being shown on-screen in a terminal window.</p>
+
+<a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">Wikipedia</a>
+

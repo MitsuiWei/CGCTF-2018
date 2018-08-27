@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2017-12-15T08:22:45+08:00</updated><id>/blog/</id><title type="html">NMd</title><subtitle>This is obviously a static website.
+</subtitle><entry><title type="html">But how to get the flag?</title><link href="/blog/2017/12/15/NMd.html" rel="alternate" type="text/html" title="But how to get the flag?" /><published>2017-12-15T07:33:47+08:00</published><updated>2017-12-15T07:33:47+08:00</updated><id>/blog/2017/12/15/NMd</id><content type="html" xml:base="/blog/2017/12/15/NMd.html">&lt;ul&gt;
+  &lt;li&gt;How to hack a static website?&lt;/li&gt;
+  &lt;li&gt;Is it able to get the shell?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;yes-just-do-it&quot;&gt;Yes, just do it!&lt;/h1&gt;</content><author><name></name></author><summary type="html">How to hack a static website? Is it able to get the shell?</summary></entry></feed>

@@ -1,0 +1,17 @@
+#container {
+    margin: 0px;
+    padding: 20px;
+}
+
+#navbar {
+    margin: 0px;
+    padding: 10px 20px 10px 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#page {
+    margin: 0px;
+    padding: 0px;
+}
+
